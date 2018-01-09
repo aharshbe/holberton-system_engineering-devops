@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Fa1m\
+ls -Fa1m | sort\
