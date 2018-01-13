@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -t: -k3 -n /etc/passwd
+sort -t: -k3 -n /etc/passwd | tr d ./
