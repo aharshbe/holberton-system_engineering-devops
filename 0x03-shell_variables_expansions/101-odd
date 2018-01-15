@@ -1,0 +1,2 @@
+#!/bin/bash
+for ((i=0, f=1;i<14;++i, f+=2)); do cat test | head -$f | tail -1;done
